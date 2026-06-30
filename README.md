@@ -3,11 +3,8 @@
 ```js
 const gustavo = {
   about: "Estudante de Análise e Desenvolvimento de Sistemas pelo SENAI, com foco em backend, automação, infraestrutura e sistemas administrativos.",
-
   experience: "Experiência prática com APIs, banco de dados, autenticação, integração com IA, deploy, VPS, Docker e automações com Python, n8n e Power Automate Desktop.",
-
   status: "Atualmente desenvolvendo projetos voltados a backend, suporte técnico, sistemas corporativos e automação de processos.",
-
   mainStack: [
     "JavaScript",
     "Node.js",
@@ -18,12 +15,10 @@ const gustavo = {
     "Docker",
     "Linux"
   ],
-
   projects: {
     orbisBackend: {
       description: "API para monitoramento industrial preditivo, desenvolvida como TCC no SENAI.",
       features: [
-        "Autenticação com JWT",
         "Gestão de usuários, máquinas, sensores e manutenções",
         "Relatórios e envio de e-mails",
         "Integração com IA",
@@ -31,19 +26,15 @@ const gustavo = {
         "Testes automatizados e CI/CD",
         "Deploy com Render, Neon, Vercel e VPS"
       ],
-      link: "https://github.com/gpc186/Orbis-backend"
     },
-
     hubit: {
       description: "Sistema acadêmico voltado à gestão de vagas, currículos e candidaturas.",
       features: [
-        "Autenticação",
         "Gestão de usuários",
         "Vagas e candidaturas",
         "Banco de dados relacional",
         "Organização de regras de negócio"
       ],
-      link: "https://github.com/gpc186/HubIT"
     }
   }
 };
